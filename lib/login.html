@@ -5,10 +5,10 @@
       <meta html-equiv="X-UA-campatible" content="IE=edge"> 
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Fazer Login </title>
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/Login.css">
    </head>
 
-   <body>
+   <body id=bl>
     <div class="block"> 
         <div>
             <a href="index.html">Home</a> 
@@ -20,29 +20,32 @@
             </div>
                         
             <div>
-                <button> <a href="./cadastro.html">Cadastro</a></button>
+                <button id="b1"> <a href="./cadastro.html">Cadastro</a></button>
             </div> 
        </div>
         <div class="banner">   
 
             </div>
         </div>
-        <div >
+        <div class="grupform">
 
 
-            <form>
+            <form id=inputt>
+                <label>Usuário </label><br>
+                <input placeholder=Email type="email" id="inemail" name=inemail required><br>
+                <label>Senha </label><br>
+                <input placeholder=senha type="passoword" id="inpassoword" name="inpassoword" required><br>
+                <input type="radio" id="feminino" name=genero value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name=genero value="Masculino" required>
+                <label for="Masculino">Masculino<br>
 
-                <label >Usuário </label>
-                <input type="text">
-                <label >Senha </label>
-                <input type="text" required>
-
- 
-                <input type="hidden" >
-                <input type="hidden" >
+                <button onclick="login()">Login </button><br>
+                <div id="escre"></div>
             </form>
 
         </div>
+        <script src="../js/script.js"> </script>
    </body>
  </html>
 
