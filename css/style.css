@@ -1,6 +1,7 @@
 ﻿/* TUDO */
 * {
   padding: 0;
+  margin 0:
 }
 html {
   margin: 0;
@@ -186,5 +187,16 @@ button:active {
   
 }
 
+/* login textoe */
+
+.grupform {
+  margin: 3% 12%;
+  padding: 5% 5%;
+  font-size: 26px;
+  border-style: solid;
+  background-color: #307523;
+  text-align: center;
+  color:white;
+  
 
 
