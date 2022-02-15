@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+/*seleção de texto*/
+::selection {
+    color: white;
+    background-color: #0f5800;
+}
 
 #titulo {
     font-family: sans-serif;
