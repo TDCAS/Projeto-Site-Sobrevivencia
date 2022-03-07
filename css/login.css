@@ -27,28 +27,31 @@
     text-decoration: none;
     color: white;
     font-size: 40px;
-  }
-button {
+}
+.b1 {
     color: white;
-    border-style: none;
+    border: solid 2px ;
     font-size: 30px;
-    padding: 6px 12px;
+    padding: 1.2vh;
     border-radius: 5px;
     background-color: #4db339;
-    margin-left:15vh ;
-    border: solid 2px;
-}
-button:hover {
+    margin: 0.5vw 1vw 1vw 1vw;
+    float: right;
+    
+  
+    
+  }
+  .b1:hover {
     color: #0d6302;
-
-}
   
-button:active {
+  }
+  
+  .b1:active {
     background-color: #5ed646;
-    border: solid #0d6302 2px;
+    border: solid #0d6302;
+    border-radius: 5px;
   
-}
-
+  }
 .banner {
     background: url("../img/sobrevivencialismoWPP.jpg") no-repeat;
     background-size: cover;
